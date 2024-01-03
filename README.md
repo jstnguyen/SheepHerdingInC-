@@ -26,8 +26,8 @@ macOS/Linux: cd /YourFilePath
 ```bash
 dotnet build
 ```
-10. Run the project with the following command:
+9. Run the project with the following command:
 ```bash
 dotnet run
 ```
-
+## Happy Herding!
