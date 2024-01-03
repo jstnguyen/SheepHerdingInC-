@@ -7,6 +7,11 @@ A sheep herding game in C#.
 3. You may need to define a package reference within the project file. Make sure the following snippet is included in sheepHerding.csproj
 ```bash
   <ItemGroup>
+    // other package references
     <PackageReference Include="NAudio" Version="2.2.1" />
   </ItemGroup>
+```
+4. Add your own file path on line 12 of sheepHerding.cs
+```bash
+string soundFilePath = @"YourFilePath/betterOffAlone.mp3";
 ```
