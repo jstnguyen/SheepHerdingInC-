@@ -9,7 +9,7 @@ int width = Console.WindowWidth - 5;
 bool shouldExit = false;
 
 // Music, be sure to add your own file path
-string soundFilePath = @"YourFilePath\betterOffAlone.mp3";
+string soundFilePath = @"YourFilePath/betterOffAlone.mp3";
 WaveOutEvent outputDevice = null;
 
 // Console position of the dog
@@ -47,7 +47,15 @@ while (!shouldExit)
         if (HerdedSheep())
         {
             Console.Clear();
-            Console.Write("Victory!"); // center this message
+            string text = "VICTORY! Press \"ctrl + c\" to exit.";
+            int left = (Console.WindowWidth - text.Length) / 2;
+            int top = Console.WindowHeight / 2;
+
+            Console.SetCursorPosition(left, top);
+
+            Console.Write(text);
+
+
             shouldExit = true;
         }
         System.Threading.Thread.Sleep(25);
