@@ -11,7 +11,9 @@ A sheep herding game in C#.
     <PackageReference Include="NAudio" Version="2.2.1" />
   </ItemGroup>
 ```
-4. Add your own file path on line 12 of sheepHerding.cs
+4. Open sheepHerding.cs in VS Code.
+5. Add your own .mp3 file path on line 12 of sheepHerding.cs
 ```bash
 string soundFilePath = @"YourFilePath/betterOffAlone.mp3";
 ```
+6. Open the terminal through the top left tool bar: View>Terminal or "press ctrl+`"
