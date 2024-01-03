@@ -17,3 +17,17 @@ A sheep herding game in C#.
 string soundFilePath = @"YourFilePath/betterOffAlone.mp3";
 ```
 6. Open the terminal through the top left tool bar: View>Terminal or "press ctrl+`"
+7. Enter file directory where you downloaded sheepHerding.cs with the following command. Be sure to add your own file directory.
+```bash
+Windows: cd C:\YourFilePath
+macOS/Linux: cd /YourFilePath
+```
+8. Build the project with the following command:
+```bash
+dotnet build
+```
+10. Run the project with the following command:
+```bash
+dotnet run
+```
+
