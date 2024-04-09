@@ -1,5 +1,5 @@
 # SheepHerdingInCSharp
-A sheep herding game in C#.
+A sheep herding game in C# that can be played in terminal with in-game music.
 
 ## Instructions
 1. Ensure you have an editor necessary to run a C# project. Visual Studio Code can be downloaded [here](https://code.visualstudio.com/download).
